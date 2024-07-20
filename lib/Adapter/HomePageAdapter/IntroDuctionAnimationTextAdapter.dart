@@ -132,9 +132,7 @@ class _IntroDuctionAnimationTextAdapterState extends State<IntroDuctionAnimation
                         style: TextStyle(color: Colors.black, fontSize: 15),
                       ),
                       onPressed: () => launchUrl(
-                        Uri.parse(
-                          "",
-                        ),
+                        Uri.parse("https://ujjawalsresume.tiiny.site/"),
                       ),
                     ),
                   );
@@ -155,7 +153,7 @@ class _IntroDuctionAnimationTextAdapterState extends State<IntroDuctionAnimation
                       isRepeatingAnimation: false,
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          "Design & Build by Ujjawal with ❤ Flutter",
+                          "Design & Build by Ujjawal with ❤ in Flutter 💙",
                           textStyle: TextStyle(
                             color: Colors.grey,
                             fontSize: 10,
